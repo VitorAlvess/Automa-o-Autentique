@@ -1,6 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 login_autentique.json
+token.json
+credentials.json
 *.py[cod]
 *$py.class
 
