@@ -163,7 +163,7 @@ class autentique:
         sleep(5)
         pagina.find_element('xpath', '/html/body/app-root/app-documents-fill-template/aside/form/div/div[23]/div[2]').click() #Botão de avançar
         sleep(5)
-        pagina.find_element('xpath', '/html/body/app-root/app-documents-new/div/aside[2]/main[1]/div[2]/div[1]/app-signer-input/div[1]/input').send_keys('mariano.almeida@gmail.com')
+        pagina.find_element('xpath', '/html/body/app-root/app-documents-new/div/aside[2]/main[1]/div[2]/div[1]/app-signer-input/div[1]/input').send_keys('alessandra.davanzo@opipa.org')
         sleep(2)
         pagina.find_element('xpath', '/html/body/app-root/app-documents-new/div/aside[2]/main[1]/div[2]/div[2]/app-signer-input/div[1]/input').send_keys(f'{lista[16]}')
         pagina.find_element('xpath', '/html/body/app-root/app-documents-new/div/aside[2]/div/button[1]').click()
